@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+.directory
+# .idea/
+drupal-docker/docker-runtime/
+drupal-docker/www/
+drupal-docker/docker/.docker.env
+drupal-docker/docker/environment
+drupal-docker/docker/drush-si.sh
+drupal-docker/docker/functions
+drupal-docker/docker/docker-compose.yml
+drupal-docker/docker/customize.sh
+drupal-docker/docker/migrate-env
+drupal-docker/docker/migrate.sh
+.gitignore
+.idea/
