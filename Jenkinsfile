@@ -1,7 +1,7 @@
 node ('master') {
-  def project = 'jenkins-156211'
-  def appName = 'cd-kubernates-drupal8'
-  def feSvcName = "${appName}-frontend"
+  //def project = 'jenkins-156211'
+  //def appName = 'cd-kubernates-drupal8'
+  //def feSvcName = "${appName}-frontend"
   //def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
     stage "install"
