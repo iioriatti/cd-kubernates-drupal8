@@ -1,13 +1,8 @@
 node ('master') {
-    echo "START 123!!!"
-  /*def project = 'jenkins-156211'
-  def appName = 'cd-kubernates-drupal8'
-  def feSvcName = "${appName}-frontend"
-  def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
+    stage('Build') {
+        checkout scm
+           echo "START 123!!!"
+    }
 
-    stage "install"
-   checkout scm
-    sh "./build.sh"
-    sh "./test.sh"
-    sh "pwd"*/
+
 }
