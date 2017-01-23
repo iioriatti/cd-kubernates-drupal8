@@ -1,5 +1,5 @@
 node ('master') {
-    echo "START XYZ!!!"
+    echo "START 123!!!"
   #def project = 'jenkins-156211'
   #def appName = 'cd-kubernates-drupal8'
   #def feSvcName = "${appName}-frontend"
