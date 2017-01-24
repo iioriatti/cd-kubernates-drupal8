@@ -3,13 +3,9 @@ node{
         echo "START!!!"
         sh "pwd"
         sh "ls -a"
-        sh "chmod 777 -R /root/workspace/cd-kubernates-drupal8"
-        sh "cd /root/workspace/cd-kubernates-drupal8"
-        sh "ls -a"
         sh "chmod 777 ./build.sh"
-        sh "ls -a"
         sh "./build.sh"
-
+        sh "./test.sh"
 
 
 
