@@ -5,6 +5,7 @@ node{
         sh "ls -a"
 
         checkout scm
+        sh  "mkdir /home/iioriatti/test"
         sh "cp -r /root/workspace/ /home/iioriatti"
         sh "cd /home/iioriatti/"
         sh "ls -a"
