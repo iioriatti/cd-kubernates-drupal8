@@ -3,7 +3,9 @@ node{
         echo "START!!!"
         sh "pwd"
         sh "ls -a"
-        sh "ls -d */"
+        sh "ls -d ~/"
+        sh "ls -d /"
+        sh "ls -d /home"
 /*
         checkout scm
         sh  "mkdir /home/iioriatti/test"
