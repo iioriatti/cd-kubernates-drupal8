@@ -1,8 +1,7 @@
 node ('master') {
-    stage('Build') {
         checkout scm
-           echo "START 123!!!"
-    }
+        echo "START 123!!!"
+
 
 
 }
