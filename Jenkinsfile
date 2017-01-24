@@ -3,7 +3,7 @@ node{
         echo "START!!!"
         sh "pwd"
         sh "ls -a"
-        sh "cd /"
+        sh "path /home/iioriatti"
         sh "ls"
 /*
         checkout scm
