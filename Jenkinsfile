@@ -3,6 +3,7 @@ node{
         echo "START!!!"
         sh "pwd"
         sh "chmod -R 777 /root/workspace/"
+        sh "ls -a"
         sh "chmod -r 777 ./build.sh"
         sh "./build.sh"
         sh "chmod 777 ./test.sh"
