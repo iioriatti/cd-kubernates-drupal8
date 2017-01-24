@@ -1,5 +1,8 @@
 #!/bin/bash
 
+docker images
+docker ps -a
+
 set -eo pipefail
 
 # Install merge plugin.
