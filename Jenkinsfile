@@ -3,7 +3,9 @@ node{
         echo "START!!!"
         sh "pwd"
         sh "ls -a"
+        sh "chmod 777 -R /root"
         sh "chmod 777 ./build.sh"
+        sh "ls -a"
         sh "./build.sh"
 
 
