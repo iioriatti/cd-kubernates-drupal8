@@ -3,7 +3,9 @@ node{
         echo "START!!!"
         sh "pwd"
         sh "ls -a"
-
+        sh "cd /"
+        sh "ls"
+/*
         checkout scm
         sh  "mkdir /home/iioriatti/test"
         sh "cp -r /root/workspace/ /home/iioriatti"
@@ -15,4 +17,5 @@ node{
         sh "./test.sh"
         echo "END!!!"
         sh "ls -a"
+        */
 }
