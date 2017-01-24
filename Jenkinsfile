@@ -3,7 +3,11 @@ node{
         echo "START!!!"
         sh "pwd"
         sh "ls -a"
-        sh "find / -type d -ls"
+        sh "chmod 777 ./build.sh"
+        sh "./build.sh"
+
+
+
 
 /*
         checkout scm
