@@ -2,7 +2,8 @@ node{
     checkout scm
         echo "START!!!"
         sh "pwd"
-        sh "chmod 777 ./build.sh"
+        sh "chmod -R 777 /root/workspace/"
+        sh "chmod -r 777 ./build.sh"
         sh "./build.sh"
         sh "chmod 777 ./test.sh"
         sh "./test.sh"
