@@ -4,7 +4,7 @@ node{
         sh "pwd"
         sh "ls -a"
         sh "docker images"
-        sh docker ps -a
+        sh "docker ps -a"
 
 
 
