@@ -2,18 +2,20 @@ node{
     checkout scm
         echo "START!!!"
         sh "pwd"
-        sh "chmod -R 777 /root/workspace/"
         sh "ls -a"
         sh "docker images"
-        sh docker ps
+        sh docker ps -a
+
+
+
+/*
+        sh "chmod -R 777 /root/workspace/"
+
         //sh "chmod 777 ./build.sh"
         sh "./build.sh"
         //sh "chmod 777 ./test.sh"
         sh "./test.sh"
 
-
-
-/*
         checkout scm
         sh  "mkdir /home/iioriatti/test"
         sh "cp -r /root/workspace/ /home/iioriatti"
